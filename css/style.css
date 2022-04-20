@@ -393,7 +393,7 @@ ul li a {
 .parallaxMenu {
 
     background-image: url("/img/maxresdefault.jpg");
-    height: 200vh;
+    height: 150vh;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
