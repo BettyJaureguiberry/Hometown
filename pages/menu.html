@@ -4,115 +4,175 @@
     <meta charset="UTF-8">
     <title>Hometown</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="imagenes/logohometown.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a  href="../index.html"><img src="../imagenes/logohometown.png" ></a>
+                </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="../index.html">Home</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/drinks.html">Drinks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <!--input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"-->
+                        <a  class="btn btn-outline-light" href="../pages/pedidosonline.html" >Pedidos Online</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div style="background-image: url(../imagenes/fondomarmolcerezoblanco.png);" class="parallaxMenu"><!-- imagen de fondo para efecto-->
-        <header class="fondoNegro ">
-            <nav >
-                <div class="flexHeader">
-                    <div class="logo">
-                        <a  href="../index.html"><img src="../imagenes/logohometown.png" ></a>
-                    </div>
-                    <div>
-                        <ul class="flexMenuNav">
-                            <li> <a href="../pages/nosotros.html">Nosotros</a></li>
-                            <li> <a href="../pages/reservas.html">Reservas</a></li>
-                            <li> <a href="../pages/menu.html">Menu</a></li>
-                            <li> <a href="../pages/drinks.html">Drinks</a></li>
-                            <li> <a href="../pages/contacto.html">Contacto</a></li>
-                            <li> <a class="botonPedido" href="../pages/pedidosonline.html">Pedidos Online</a></li>
-                        </ul>
+        <section class="">
+            <div>
+                <div class="tituloMenu">
+                    <h4 class="">Que sabores vas a descubrir . . . </h4>
+                </div>
+                <div class="ee">
+                    <h6 class="">Entradas</h6>
+                </div>
+                <div class="container-fluid">
+                <div class="row">
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img  data-aos="flip-up"src="../imagenes/saquitosdemasaphilo,salmonahumadoyricotaconmermeladadepimentones.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Saquitos de masa Philo, Salmón Ahumado y Ricota con mermelada de pimentones.</p>
                     </div>
                 </div>
-            </nav>
-        </header>
-    <section class="">
-        <div>
-            <div class="tituloMenu">
-                <h4 class="">Que sabores vas a descubrir . . . </h4>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img  data-aos="flip-up" src="../imagenes/polposutortinodipatate.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Pulpo sobre pastel de papa.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up" src="../imagenes/vieirassobrepure.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Vieiras a la plancha sobre pure de limón y pimiento.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img  data-aos="flip-up" src="../imagenes/gyozas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Gyozas de rabo de toro a la cordobesa.</p>
+                    </div>
+                </div>
+                <!-- PLATOS PRINCIPALES -->
+                <div class="PP">
+                    <h6 class="">Platos Principales</h6>
+                </div>
+                <div class="container-fluid">
+                <div class="row">
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up" src="../imagenes/chilisincarne.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Chili sin carne con yogur de aguacate.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up"  src="../imagenes/vegan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Vegan Shepherd´s pie.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up" src="../imagenes/estofadocoreano.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Estofado de pollo Coreano en salsa de soja, jengibre y limón.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up" src="../imagenes/lubina.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lubina asada a la tailandesa.</p>
+                    </div>
+                </div>
+                <!-- fin plato principales-->
+                <!-- POSTRES-->
+                <div class="PP">
+                    <h6 class="">Postres</h6>
+                </div>
+                <div class="container-fluid">
+                <div class="row">
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up" src="../imagenes/postremaracuya.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Mousse de maracuyá en base de marquise de chocolate.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up" src="../imagenes/espumadealmendra.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Espuma de almendra con gelée de naranja.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up" src="../imagenes/pralinedealmendraysal,caramelo,albaricoqueycrema heladaderon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Praliné de almendra y sal, caramelo, albaricoque y crema helada de ron.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <img data-aos="flip-up" src="../imagenes/postredemango,coco,limaymenta.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Postre de mango, coco, lima y menta.</p>
+                    </div>
+                </div>
             </div>
-            <div class="ee">
-                <h3 class="">Entradas</h3>
-            </div>
-            <div class="entradas">
-                <img data-aos="flip-up" src="../imagenes/saquitosdemasaphilo,salmonahumadoyricotaconmermeladadepimentones.jpg" alt="" class="imgMenu entrada1">
-                <img data-aos="flip-up" src="../imagenes/polposutortinodipatate.jpg" alt="" class="imgMenu entrada2 ">  
-                <img data-aos="flip-up" src="../imagenes/vieirassobrepure.jpg" alt="" class="imgMenu entrada3">
-                <img data-aos="flip-up" src="../imagenes/gyozas.jpg" alt="" class="imgMenu entrada4">
-                <p class="etxt1">Saquitos de masa Philo, Salmón Ahumado y Ricota con mermelada de pimentones.</p>
-                <p class="etxt2">Pulpo sobre pastel de papa.</p>
-                <p class="etxt3">Vieiras a la plancha sobre pure de limón y pimiento.</p>
-                <p class="etxt4">Gyozas de rabo de toro a la cordobesa.</p>
-                <!--img src="../imagenes/rollitos de salmon con panko.jpg" alt="" class="imgMenu">
-                <img src="" alt="" class="imgMenu">
-                
-                <p class="">Rollitos de Salmón en panko.</p>
-                <p class="">Mini quiches de queso semicurado de Búfala.</p-->
-            </div>
-        </div>
-    <h3 class="pp">Platos Principales</h3>
-        <div class="platosPrincipales">
-            <img data-aos="flip-up" src="../imagenes/chilisincarne.jpg" alt="" class="imgMenu pp1">
-            <img data-aos="flip-up" src="../imagenes/vegan.jpg" alt="" class="imgMenu pp2">
-            <img data-aos="flip-up" src="../imagenes/estofadocoreano.jpg" alt="" class="imgMenu pp3">
-            <img data-aos="flip-up" src="../imagenes/lubina.jpg" alt="" class="imgMenu pp4">
-            <p class="ptxt1">Chili sin carne con yogur de aguacate.</p>
-            <p class="ptxt2">Vegan Shepherd´s pie.</p>
-            <p class="ptxt3">Estofado de pollo Coreano en salsa de soja, jengibre y limón.</p>
-            <p class="ptxt4">Lubina asada a la tailandesa.</p>
-        <!--img src="" alt="">
-        <p>Sudado de dorada.</p>
-        <img src="" alt="">
-        <p>Costillas de cordero a las finas hierbas con papas mini.</p-->
+        </section>
+        <footer class="navbar navbar-dark bg-dark"><!-- pie de pagina--> 
+            <section class="container-fluid">
+                <div class="navbar-text text-light">
+                    <p>Horarios:</p>
+                    <p>Lu - Vi: 11am - 10pm</p>
+                    <p>Sab - Do: 11am - 12am</p>
+                </div>
+                <div class="navbar-text text-light">
+                    <p>Rosales 2698, 1846</p>
+                    <p>Jose Marmol</p>
+                </div>
+                <div class="navbar-text text-light">
+                    <p>Seguinos:</p>
+                    <a href=""><img src="../imagenes/logotwitter.png"width=20></a>
+                    <a href=""><img src="../imagenes/logoface.png"width=20></a>
+                    <a href=""><img src="../imagenes/logoinstagram.png"width=20></a>
+                    <a href=""><img src="../imagenes/logopinterest.png"width=20></a>
+                    <a href=""><img src="../imagenes/logows.png"width=20></a>
+                </div>
+            </section>
+        </footer><!-- cierre pie de pagina--> 
     </div>
-    <h3 class="po">Postres</h3>
-    <div class="postres">
-        <img data-aos="flip-up" src="../imagenes/postremaracuya.jpg" alt="" class="imgMenu po1">
-        <img data-aos="flip-up" src="../imagenes/espumadealmendra.jpg" alt="" class="imgMenu po2">
-        <img data-aos="flip-up" src="../imagenes/pralinedealmendraysal,caramelo,albaricoqueycrema heladaderon.jpg" alt="" class="imgMenu po3">
-        <img data-aos="flip-up" src="../imagenes/postredemango,coco,limaymenta.jpg" alt="" class="imgMenu">
-        <p class="potxt1">Mousse de maracuyá en base de marquise de chocolate.</p>
-        <p class="potxt2">Espuma de almendra con gelée de naranja.</p>
-        <p class="potxt3">Praliné de almendra y sal, caramelo, albaricoque y crema helada de ron.</p>
-        <p class="potxt4">Postre de mango, coco, lima y menta.</p>
-        <!--img src="" alt="">
-        <p>Volcán de chocolate.</p>
-        <img src="" alt="">
-        <p>Postre de hojaldre con café, chocolate y toffee.</p-->
-    </div>
-    </section>
 
-
-<footer class="flexFooterMenu fondoNegro"><!-- pie de pagina--> 
-    <section>
-        <article class="horarios">
-            <p>Lu - Vi: 11am - 10pm</p>
-            <p> Sab - Do: 11am - 12am</p>
-        </article>
-    </section>
-    <section>
-        <article class="direccion">
-            <p>Rosales 2698, 1846</p>
-            <p>Jose Marmol</p>
-        </article>
-    </section>
-    <aside class="redes">
-        <p>Seguinos:</p>
-        <div class="iconosRedes">
-                <a href=""><img src="../imagenes/logotwitter.png"width=20></a>
-                <a href=""><img src="../imagenes/logoface.png"width=20></a>
-                <a href=""><img src="../imagenes/logoinstagram.png"width=20></a>
-                <a href=""><img src="../imagenes/logopinterest.png"width=20></a>
-                <a href=""><img src="../imagenes/logows.png"width=20></a>
-        </div>
-    </aside>
-</footer><!-- cierre pie de pagina--> 
+    
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
+<script src="../js/bootstrap.bundle.min.js"></script>    
+
 </body>
 </html>

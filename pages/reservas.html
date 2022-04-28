@@ -3,117 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <title>Hometown</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="imagenes/logohometown.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="background-image: url(../imagenes/fondoreservasnuevo.png);">
     <div class=""--><!-- imagen de fondo para efecto-->
-        <header class="fondoNegro ">
-            <nav >
-                <div class="flexHeader">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
                     <div class="logo">
                         <a  href="../index.html"><img src="../imagenes/logohometown.png" ></a>
                     </div>
-                    <div>
-                        <ul class="flexMenuNav">
-                            <li> <a href="../pages/nosotros.html">Nosotros</a></li>
-                            <li> <a href="../pages/reservas.html">Reservas</a></li>
-                            <li> <a href="../pages/menu.html">Menu</a></li>
-                            <li> <a href="../pages/drinks.html">Drinks</a></li>
-                            <li> <a href="../pages/contacto.html">Contacto</a></li>
-                            <li> <a class="botonPedido" href="../pages/pedidosonline.html">Pedidos Online</a></li>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="../index.html">Home</a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/reservas.html">Reservas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/drinks.html">Drinks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
                         </ul>
+                        <form class="d-flex">
+                            <!--input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"-->
+                            <a  class="btn btn-outline-light" href="../pages/pedidosonline.html" >Pedidos Online</a>
+                        </form>
                     </div>
                 </div>
             </nav>
         </header>
     </div>
-        <div class="menuReservas"> <!--menu de reservas--> 
-            <p class="">Fecha:</p>
-            <input type="date" class="measureDate casilla " placeholder="Fecha" >
-            <p class="">Horario:</p>
-            <form action="">
-                <select name="Horario" id="" class="casilla">
-                    <option value="11:00 a 12:00 am">11:00 a 12:00 am</option>
-                    <option value="12:00 a 13:00 am">12:00 a 13:00 pm</option>
-                    <option value="13:00 a 14:00 pm">13:00 a 14:00 pm</option>
-                    <option value="14:00 a 15:00 pm">14:00 a 15:00 pm</option>
-                    <option value="15:00 a 16:00 pm">15:00 a 16:00 pm</option>
-                    <option value="16:00 a 17:00 pm">16:00 a 17:00 pm</option>
-                    <option value="17:00 a 18:00 pm">17:00 a 18:00 pm</option>
-                    <option value="18:00 a 19:00 pm">18:00 a 19:00 pm</option>
-                    <option value="19:00 a 20:00 pm">19:00 a 20:00 pm</option>
-                    <option value="20:00 a 21:00 pm">20:00 a 21:00 pm</option>
-                    <option value="21:00 a 22:00 pm">21:00 a 22:00 pm</option>
+    <fieldset>
+        <section>
+            <legend>Formulario de Reserva</legend>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Fecha</label>
+                <input type="date" class="measureDate form-control" id="exampleFormControlInput1" placeholder="Ingrese fecha">
+            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Horario</label>
+                <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Seleccionar...</option>
+                    <option value="1">11:00 a 12:00 am</option>
+                    <option value="2">12:00 a 13:00 pm</option>
+                    <option value="3">13:00 a 14:00 pm</option>
+                    <option value="4">14:00 a 15:00 pm</option>
+                    <option value="5">15:00 a 16:00 pm</option>
+                    <option value="6">16:00 a 17:00 pm</option>
+                    <option value="7">17:00 a 18:00 pm</option>
+                    <option value="8">18:00 a 19:00 pm</option>
+                    <option value="9">19:00 a 20:00 pm</option>
+                    <option value="10">20:00 a 21:00 pm</option>
+                    <option value="11">21:00 a 22:00 pm</option>
                 </select>
-            </form>
-            <p class="">Tamaño Grupo:</p>
-            <form action="">
-                <select name="grupo" id="" class="casilla">
-                    <option value="1 persona">1 Persona</option>
-                    <option value="2 personas">2 Personas</option>
-                    <option value="3 personas">3 Personas</option>
-                    <option value="4 personas">4 Personas</option>
-                    <option value="5 personas">5 Personas</option>
-                    <option value="6 personas">6 Personas</option>
-                    <option value="grupo mayor">mayor a 6 personas</option>
+            </div>        
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Tamaño grupo</label>
+                <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Seleccionar...</option>
+                    <option value="1">1 persona</option>
+                    <option value="2">2 personas</option>
+                    <option value="3">3 personas</option>
+                    <option value="4">4 personas</option>
+                    <option value="5">5 personas</option>
+                    <option value="6">6 personas</option>
+                    <option value="7">mayor a 6 personas</option>
                 </select>
-            </form>
-            <button class="botones">Reservar</button>
-        </div>
-    </div>
-    <div class="formReservas">
-        <div class="">
-            <form action="">
-                <fieldset class="formContactoReservas">
-                    <legend>Formulario de Contacto</legend>
-                    <div class="intContacto">
-                        <label for="nomyape">Nombre y Apellido:</label>
-                        <input type="text" name="nomyape" class="casilla">
-                        <label for="telefono">Telefono:</label>
-                        <input type="number" name="telefono" class="casilla">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" class="casilla">
-                        <textarea class="casilla" name="mensaje" id="" cols="30" rows="10" placeholder="Por favor, deje su mensaje aqui."></textarea>
-                    </div>
-                    <div class="botonesContacto">
-                        <input type="submit" value="Enviar" class="botones" >
-                        <input type="reset" value="Limpiar" class="botones">
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-        <!--div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.615402459124!2d-58.373424785053494!3d-34.79045618041158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd334d30a048f%3A0x6c66a5b37e6a94b4!2sLeonardo%20Rosales%202698%2C%20B1845COI%20Jos%C3%A9%20Marmol%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649031751084!5m2!1ses-419!2sar"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div-->
+            </div>        
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mimail@ejemplo.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" placeholder="Por favor, deje su mensaje aqui..." id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit button" value="Enviar" class="btn btn-light">Enviar</button>
+            <button type="submit button" value="Limpiar" class="btn btn-light">Limpiar</button>
+        </section>
         <div>
             <img src="../imagenes/venisinfondo.png" alt="" class="favorito">
         </div>
+            
+    </fieldset>
+        
     </div>
-    <footer class="flexFooter fondoNegro"><!-- pie de pagina--> 
-        <section>
-            <article class="horarios">
+    <footer class="navbar navbar-dark bg-dark"><!-- pie de pagina--> 
+        <section class="container-fluid">
+            <div class="navbar-text text-light">
+                <p>Horarios:</p>
                 <p>Lu - Vi: 11am - 10pm</p>
-                <p> Sab - Do: 11am - 12am</p>
-            </article>
-        </section>
-        <section>
-            <article class="direccion">
+                <p>Sab - Do: 11am - 12am</p>
+            </div>
+            <div class="navbar-text text-light">
                 <p>Rosales 2698, 1846</p>
                 <p>Jose Marmol</p>
-            </article>
-        </section>
-        <aside class="redes">
-            <p>Seguinos:</p>
-            <div class="iconosRedes">
+            </div>
+            <div class="navbar-text text-light">
+                <p>Seguinos:</p>
                 <a href=""><img src="../imagenes/logotwitter.png"width=20></a>
                 <a href=""><img src="../imagenes/logoface.png"width=20></a>
                 <a href=""><img src="../imagenes/logoinstagram.png"width=20></a>
                 <a href=""><img src="../imagenes/logopinterest.png"width=20></a>
                 <a href=""><img src="../imagenes/logows.png"width=20></a>
             </div>
-        </aside>
-    </footer><!-- cierre pie de pagina--> 
+        </section>
+    </footer><!-- cierre pie de pagina-->
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

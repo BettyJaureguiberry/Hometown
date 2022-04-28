@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Hometown</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagenes/logohometown.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,65 +24,78 @@
     End Google Tag Manager -->
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRZD7S6"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-<div style="background-image: url(imagenes/fondoindexnueva.png);" class="parallax">
-    <header class="fondoNegro ">
-        <nav >
-            <div class="flexHeader">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
                 <div class="logo">
                     <a  href="index.html"><img src="imagenes/logohometown.png" ></a>
                 </div>
-                <div>
-                    <ul class="flexMenuNav">
-                        <li> <a href="pages/nosotros.html">Nosotros</a></li>
-                        <li> <a href="pages/reservas.html">Reservas</a></li>
-                        <li> <a href="pages/menu.html">Menu</a></li>
-                        <li> <a href="pages/drinks.html">Drinks</a></li>
-                        <li> <a href="pages/contacto.html">Contacto</a></li>
-                        <li> <a class="botonPedido" href="pages/pedidosonline.html">Pedidos Online</a></li>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/drinks.html">Drinks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
                     </ul>
+                    <form class="d-flex">
+                        <!--input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"-->
+                        <a  class="btn btn-outline-light" href="pages/pedidosonline.html" >Pedidos Online</a>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
-    <section >
-        <div class="cajaBienvenidos"> <!-- caja menu bienvenidos--> 
-        <h2>Bienvenidos</h2>
-            <article class="textoCajaBienvenidos">
-                <p class="textoBienvenidos">Veni a descubrir tu nuevo lugar favorito. </p>
-                <p class="textoBienvenidos">Comparti momentos especiales con aquellos que hacen de tu mundo</p>
-                <p class="textoBienvenidos">Enamorate de la Cocina Fusion.</p>
-                <a class="botonPedido" href="pages/pedidosonline.html">Pedidos Online</a>
-            </article>
-        </div> <!-- cierre caja menu bienvenidos--> 
-    </section>
-    <footer class="flexFooter fondoNegro"><!-- pie de pagina--> 
-        <section>
-            <article class="horarios">
+    <div style="background-image: url(imagenes/fondoindexnueva.png);" class="parallax">
+            <div class="cajaBienvenidos card text-white text-center bg-dark mb-4" style="max-width: 16rem;">
+                <section class="">
+                    <article class="">
+                        <div class="card-header">Bienvenidos!</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Enamorate de la Cocina Fusion.</h5>
+                            <p class="card-text">Veni a tu nuevo lugar favorito.</strong> ¡Un placer para los sentidos! La cocina fusión es un concepto general que se emplea en gastronomía para indicar tanto la mezcla de estilos culinarios de diferentes culturas, como la mezcla de ingredientes, condimentos, presentación y prácticas culinarias. Comparti momentos especiales con aquellos que hacen de tu mundo unico. ¡Descubri sabores nuevos!</p>
+                        </div>
+                        <a  class="btn btn-outline-light" href="pages/pedidosonline.html" >Pedidos Online</a>
+                    </article>
+                </section>
+            </div>
+            
+    </div>
+    <footer class="navbar navbar-dark bg-dark"><!-- pie de pagina--> 
+        <section class="container-fluid">
+            <div class="navbar-text text-light">
+                <p>Horarios:</p>
                 <p>Lu - Vi: 11am - 10pm</p>
-                <p> Sab - Do: 11am - 12am</p>
-            </article>
-        </section>
-        <section>
-            <article class="direccion">
+                <p>Sab - Do: 11am - 12am</p>
+            </div>
+            <div class="navbar-text text-light">
                 <p>Rosales 2698, 1846</p>
                 <p>Jose Marmol</p>
-            </article>
-        </section>
-        <aside class="redes">
-            <p>Seguinos:</p>
-            <div class="iconosRedes">
-            <a href=""><img src="imagenes/logotwitter.png"width=20></a>
-            <a href=""><img src="imagenes/logoface.png"width=20></a>
-            <a href=""><img src="imagenes/logoinstagram.png"width=20></a>
-            <a href=""><img src="imagenes/logopinterest.png"width=20></a>
-            <a href=""><img src="imagenes/logows.png"width=20></a>
             </div>
-        </aside>
+            <div class="navbar-text text-light">
+                <p>Seguinos:</p>
+                <a href=""><img src="imagenes/logotwitter.png"width=20></a>
+                <a href=""><img src="imagenes/logoface.png"width=20></a>
+                <a href=""><img src="imagenes/logoinstagram.png"width=20></a>
+                <a href=""><img src="imagenes/logopinterest.png"width=20></a>
+                <a href=""><img src="imagenes/logows.png"width=20></a>
+            </div>
+        </section>
     </footer><!-- cierre pie de pagina--> 
-</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

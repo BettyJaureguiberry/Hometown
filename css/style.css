@@ -61,7 +61,8 @@ footer aside p{
 }
 
 .cajaBienvenidos {
-    width: 200px;
+    margin: 5px;
+    /*width: 200px;
     height:400px;
     border-radius: 10px;
     border-style: solid;
@@ -71,7 +72,7 @@ footer aside p{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;*/
 
 
 }
@@ -155,6 +156,7 @@ ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10rem;
     margin-bottom: 60px;
 }
 
@@ -290,9 +292,10 @@ ul li a {
 }*/
 
 .favorito{
-    width: 500px;
-    height: 300px;
+    width: 20rem;
+    height: 10rem;
     border-radius: 10px;
+    margin-left: 25rem;
 }
 
 /*
@@ -395,7 +398,7 @@ ul li a {
 .parallaxMenu {
 
     background-image: url("/img/maxresdefault.jpg");
-    height: 200vh;
+    height: 250vh;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -448,7 +451,7 @@ ul li a {
 .parallaxPO {
 
     background-image: url("/img/maxresdefault.jpg");
-    height: 300vh;
+    height: 200vh;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -509,7 +512,7 @@ ul li a {
 .parallaxDrinks {
 
     background-image: url("/img/maxresdefault.jpg");
-    height: 200vh;
+    height: 150vh;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -817,7 +820,7 @@ https://drive.google.com/file/d/1JYJBEt-EkNpVrsoDuDkiMh0vrBiVMZvP/view?usp=shari
         align-items: center;
     }
     .parallaxMenu {
-        height: 500vh;
+        height: 600vh;
         /*background-image: url("/img/maxresdefault.jpg");
         height: 160vh;
         background-attachment:fixed;
@@ -975,7 +978,7 @@ https://drive.google.com/file/d/1JYJBEt-EkNpVrsoDuDkiMh0vrBiVMZvP/view?usp=shari
         justify-content: center;
     }
     .parallaxContacto{
-        height: 300vh;
+        height: 100vh;
     }
     /*PedidoOnline*/
     .poo1{
@@ -1272,7 +1275,7 @@ https://drive.google.com/file/d/1JYJBEt-EkNpVrsoDuDkiMh0vrBiVMZvP/view?usp=shari
         align-items: center;
     }
     .parallaxPO {
-        height: 500vh;
+        height: 350vh;
     }
     .menuPO{
         /*background-color: black;
