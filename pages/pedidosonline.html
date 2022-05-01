@@ -4,33 +4,65 @@
     <meta charset="UTF-8">
     <title>Hometown</title>
     <link rel="shortcut icon" href="imagenes/logohometown.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="imagenes/logohometown.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a  href="../index.html"><img src="../imagenes/logohometown.png" ></a>
+                </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="../index.html">Home</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/drinks.html">Drinks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <!--input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"-->
+                        <a  class="btn btn-outline-light" href="../pages/pedidosonline.html" >Pedidos Online</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div style="background-image: url(../imagenes/fondomarmoladoconflores.png);" class="parallaxPO"><!-- imagen de fondo para efecto-->
-        <header class="fondoNegro ">
-            <nav >
-                <div class="flexHeader">
-                    <div class="logo">
-                        <a  href="../index.html"><img src="../imagenes/logohometown.png" ></a>
-                    </div>
-                    <div>
-                        <ul class="flexMenuNav">
-                            <li> <a href="../pages/nosotros.html">Nosotros</a></li>
-                            <li> <a href="../pages/reservas.html">Reservas</a></li>
-                            <li> <a href="../pages/menu.html">Menu</a></li>
-                            <li> <a href="../pages/drinks.html">Drinks</a></li>
-                            <li> <a href="../pages/contacto.html">Contacto</a></li>
-                            <li> <a class="botonPedido" href="../pages/pedidosonline.html">Pedidos Online</a></li>
+        <div class="pedidosonline">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Que desea seleccionar:
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="">Entradas</a></li>
+                            <li><a class="dropdown-item" href="">Platos Principales</a></li>
+                            <li><a class="dropdown-item" href="">Postres</a></li>
                         </ul>
-                    </div>
+                    </li>
                 </div>
             </nav>
-        </header>
-        <div class="pedidosonline">
-            <div class="menuPO">
+            <!--div class="menuPO">
                 </form>
                     <h4 class="tituloPO">Que desea seleccionar:</h4>
                     <form action="">
@@ -40,94 +72,91 @@
                             <option value="Postres">Postres</option>
                         </select>
                     </form>
-            </div>
+            </div-->
             <div class="entradasPO">
-                <img src="../imagenes/saquitosdemasaphilo,salmonahumadoyricotaconmermeladadepimentones.jpg" alt="" class="imgMenu poo1 animacion" >
+                <img id="entradas" src="../imagenes/saquitosdemasaphilo,salmonahumadoyricotaconmermeladadepimentones.jpg" alt="" class="imgMenu poo1 animacion" >
                 <p class="tpo1">Saquitos de masa Philo, Salmón Ahumado y Ricota con mermelada de pimentones. $0.-</p>
                 <label class ="por1" for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor1">
-                <button class="botones b1"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img src="../imagenes/polposutortinodipatate.jpg" alt="" class="imgMenu poo2 animacion ">  
                 <p class="tpo2">Pulpo sobre pastel de papa. $0.-</p>
                 <label class="por2"for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor2">
-                <button class="botones b2"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img src="../imagenes/vieirassobrepure.jpg" alt="" class="imgMenu poo3 animacion">
                 <p class="tpo3">Vieiras a la plancha sobre pure de limón y pimiento.</p>
                 <label class="por3"for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor3">
-                <button class="botones b3"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img  src="../imagenes/gyozas.jpg" alt="" class="imgMenu poo4 animacion">
                 <p class="tpo4">Gyozas de rabo de toro a la cordobesa.</p>
                 <label class="por4" for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor4">
-                <button class="botones b4"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img src="../imagenes/chilisincarne.jpg" alt="" class="imgMenu poo5 animacion">
                 <p class="tpo5">Chili sin carne con yogur de aguacate. $0.-</p>
                 <label class="por5"for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor5">
-                <button class="botones b5"> Pedir</button>
-                <img src="../imagenes/vegan.jpg" alt="" class="imgMenu poo6 animacion">
+                <button type="button" class="btn btn-light"> Pedir</button>
+                <img id="platosprincipales" src="../imagenes/vegan.jpg" alt="" class="imgMenu poo6 animacion">
                 <p class="tpo6">Vegan Shepherd´s pie.</p>
                 <label class="por6"for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor6">
-                <button class="botones b6"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img src="../imagenes/estofado.jpg" alt="" class="imgMenu poo7 animacion">
                 <p class="tpo7">Estofado de pollo Coreano en salsa de soja, jengibre y limón.</p>
                 <label class="por7" for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor7">
-                <button class="botones b7"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img src="../imagenes/lubina.jpg" alt="" class="imgMenu poo8 animacion">         
                 <p class="tpo8">Lubina asada a la tailandesa.</p>
                 <label class="por8" for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor8">
-                <button class="botones b8"> Pedir</button> 
-                <img src="../imagenes/postremaracuya.jpg" alt="" class="imgMenu poo9 animacion">
+                <button type="button" class="btn btn-light"> Pedir</button> 
+                <img id="postres" src="../imagenes/postremaracuya.jpg" alt="" class="imgMenu poo9 animacion">
                 <p class="tpo9">Mousse de maracuyá en base de marquise de chocolate. $0.-</p>
                 <label class="por9"for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor9">
-                <button class="botones b9"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img src="../imagenes/espumadealmendra.jpg" alt="" class="imgMenu poo10 animacion">
                 <p class="tpo10">Espuma de almendra con gelée de naranja.</p>
                 <label class ="por10"for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor10">
-                <button class="botones b10"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img src="../imagenes/pralinedealmendraysal,caramelo,albaricoqueycrema heladaderon.jpg" alt="" class="imgMenu poo11 animacion">
                 <p class="tpo11">Praliné de almendra y sal, caramelo, albaricoque y crema helada de ron.</p>
                 <label class="por11" for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor11">
-                <button class="botones b11"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
                 <img src="../imagenes/postredemango,coco,limaymenta.jpg" alt="" class="imgMenu poo12 animacion">
                 <p class="tpo12">Postre de mango, coco, lima y menta.</p>
                 <label class="por12"for="porcion">Cant Porciones:</label>
                 <input type="number" name="porcion" class="cantPorc cpor12">
-                <button class="botones b12"> Pedir</button>
+                <button type="button" class="btn btn-light"> Pedir</button>
             </div><!-- fin grid-->
         </div>
-        <footer class="flexFooterPO fondoNegro"><!-- pie de pagina--> 
-            <section>
-                <article class="horarios">
+        <footer class="navbar navbar-dark bg-dark"><!-- pie de pagina--> 
+            <section class="container-fluid">
+                <div class="navbar-text text-light">
+                    <p>Horarios:</p>
                     <p>Lu - Vi: 11am - 10pm</p>
-                    <p> Sab - Do: 11am - 12am</p>
-                </article>
-            </section>
-            <section>
-                <article class="direccion">
+                    <p>Sab - Do: 11am - 12am</p>
+                </div>
+                <div class="navbar-text text-light">
                     <p>Rosales 2698, 1846</p>
                     <p>Jose Marmol</p>
-                </article>
-            </section>
-            <aside class="redes">
-                <p>Seguinos:</p>
-                <div class="iconosRedes">
+                </div>
+                <div class="navbar-text text-light">
+                    <p>Seguinos:</p>
                     <a href=""><img src="../imagenes/logotwitter.png"width=20></a>
                     <a href=""><img src="../imagenes/logoface.png"width=20></a>
                     <a href=""><img src="../imagenes/logoinstagram.png"width=20></a>
                     <a href=""><img src="../imagenes/logopinterest.png"width=20></a>
                     <a href=""><img src="../imagenes/logows.png"width=20></a>
                 </div>
-            </aside>
-        </footer><!-- cierre pie de pagina--> 
-        
+            </section>
+        </footer><!-- cierre pie de pagina-->
+    <script src="../js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
