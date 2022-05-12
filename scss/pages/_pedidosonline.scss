@@ -1,7 +1,6 @@
 .menuPO{
     background-color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    @include fuente;
     margin: 10px;
 }
 
@@ -33,9 +32,8 @@
     
 }
 .tituloPO{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    @include fuente; 
     font-size: 20px;
-    color: white;
 }
 .animacion:hover {
     transform: scale(1.5);

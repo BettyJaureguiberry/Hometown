@@ -4,8 +4,7 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     background-color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    @include fuente; 
     margin: 10px;
 }
 .casilla{
@@ -15,20 +14,19 @@
     width: 450px;
     height:450px;
     background-color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    @include fuente;
     margin: 60px;
 }
-.botones {
+@mixin flexrow {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+}
+.botones {
+    @include flexrow;
 }
 .formReservas{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flexrow;
 }
 
 .favorito{
