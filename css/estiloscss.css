@@ -314,7 +314,7 @@ ul li a {
   color: black; }
 
 .parallaxMenu {
-  height: 150vh; }
+  height: 200vh; }
 
 .flexFooterMenu {
   display: flex;
@@ -354,8 +354,8 @@ ul li a {
 
 .tituloPO {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  color: white; }
+  color: white;
+  font-size: 20px; }
 
 .animacion:hover {
   transform: scale(1.5);
