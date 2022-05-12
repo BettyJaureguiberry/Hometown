@@ -1,4 +1,4 @@
-<img src="imagenes/logohometownblack.png" >
+<img src="imagenes/logohometownblack.svg" >
 
 # Hometown :: Beer and Friends
 
