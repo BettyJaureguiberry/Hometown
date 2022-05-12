@@ -3,6 +3,10 @@
     height: 75%;
     border-radius: 10px;
 }
+.centrar{
+    display: flex;
+    justify-content: center;
+}
 .tituloMenu{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:black;
@@ -64,18 +68,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
 }
+
 .parallaxMenu {
-
-    background-image: url("/img/maxresdefault.jpg");
-    height: 250vh;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-
-
+    @extend .parallax;
+    height: 150vh;
 }
 .flexFooterMenu {
     display: flex;

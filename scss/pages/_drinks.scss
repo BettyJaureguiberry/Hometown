@@ -19,9 +19,8 @@
     border-radius: 5px;
 }
 .cuadroTequila {
-    display: grid;
-    grid-template-columns: 250px 600px;
-    grid-row: 400px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     justify-self: center;
@@ -32,13 +31,8 @@
 
 }
 .parallaxDrinks {
-
-    background-image: url("/img/maxresdefault.jpg");
+    @extend .parallax;
     height: 150vh;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #video {
     width:200px;
