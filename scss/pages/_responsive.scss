@@ -229,13 +229,13 @@
     }
     /*Drinks*/
     @for $i from 1 through 9 {
-        t#{$i}{
+        .t#{$i}{
             grid-area: t#{$i};
         }
     }
 
     @for $i from 1 through 9 {
-        d#{$i}{
+        .d#{$i}{
             grid-area: d#{$i};
         }
     }
@@ -300,33 +300,34 @@
     }
     /*PedidoOnline*/
     @for $i from 1 through 12 {
-        poo#{$i}{
+        .poo#{$i}{
             grid-area: poo#{$i};
         }
     }
     @for $i from 1 through 12 {
-        tpo#{$i}{
+        .tpo#{$i}{
             grid-area: tpo#{$i};
         }
     }
     @for $i from 1 through 12 {
-        por#{$i}{
+        .por#{$i}{
             grid-area: por#{$i};
             font-size: small;
         }
     }
     @for $i from 1 through 12 {
-        cpor#{$i}{
+        .cpor#{$i}{
             grid-area: cpor#{$i};
             transform: scale(0.8);
         }
     }
     @for $i from 1 through 12 {
-        b#{$i}{
+        .b#{$i}{
             grid-area: b#{$i};
             transform: scale(0.8);
         }
     }
+
     .pedidosonline{
         display: flex;
         flex-direction: column;

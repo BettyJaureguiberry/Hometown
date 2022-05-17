@@ -582,41 +582,41 @@ ul li a {
   .parallaxMenu {
     height: 600vh; }
   /*Drinks*/
-  t1 {
+  .t1 {
     grid-area: t1; }
-  t2 {
+  .t2 {
     grid-area: t2; }
-  t3 {
+  .t3 {
     grid-area: t3; }
-  t4 {
+  .t4 {
     grid-area: t4; }
-  t5 {
+  .t5 {
     grid-area: t5; }
-  t6 {
+  .t6 {
     grid-area: t6; }
-  t7 {
+  .t7 {
     grid-area: t7; }
-  t8 {
+  .t8 {
     grid-area: t8; }
-  t9 {
+  .t9 {
     grid-area: t9; }
-  d1 {
+  .d1 {
     grid-area: d1; }
-  d2 {
+  .d2 {
     grid-area: d2; }
-  d3 {
+  .d3 {
     grid-area: d3; }
-  d4 {
+  .d4 {
     grid-area: d4; }
-  d5 {
+  .d5 {
     grid-area: d5; }
-  d6 {
+  .d6 {
     grid-area: d6; }
-  d7 {
+  .d7 {
     grid-area: d7; }
-  d8 {
+  .d8 {
     grid-area: d8; }
-  d9 {
+  .d9 {
     grid-area: d9; }
   .videot {
     grid-area: videot;
@@ -654,160 +654,160 @@ ul li a {
   .parallaxContacto {
     height: 100vh; }
   /*PedidoOnline*/
-  poo1 {
+  .poo1 {
     grid-area: poo1; }
-  poo2 {
+  .poo2 {
     grid-area: poo2; }
-  poo3 {
+  .poo3 {
     grid-area: poo3; }
-  poo4 {
+  .poo4 {
     grid-area: poo4; }
-  poo5 {
+  .poo5 {
     grid-area: poo5; }
-  poo6 {
+  .poo6 {
     grid-area: poo6; }
-  poo7 {
+  .poo7 {
     grid-area: poo7; }
-  poo8 {
+  .poo8 {
     grid-area: poo8; }
-  poo9 {
+  .poo9 {
     grid-area: poo9; }
-  poo10 {
+  .poo10 {
     grid-area: poo10; }
-  poo11 {
+  .poo11 {
     grid-area: poo11; }
-  poo12 {
+  .poo12 {
     grid-area: poo12; }
-  tpo1 {
+  .tpo1 {
     grid-area: tpo1; }
-  tpo2 {
+  .tpo2 {
     grid-area: tpo2; }
-  tpo3 {
+  .tpo3 {
     grid-area: tpo3; }
-  tpo4 {
+  .tpo4 {
     grid-area: tpo4; }
-  tpo5 {
+  .tpo5 {
     grid-area: tpo5; }
-  tpo6 {
+  .tpo6 {
     grid-area: tpo6; }
-  tpo7 {
+  .tpo7 {
     grid-area: tpo7; }
-  tpo8 {
+  .tpo8 {
     grid-area: tpo8; }
-  tpo9 {
+  .tpo9 {
     grid-area: tpo9; }
-  tpo10 {
+  .tpo10 {
     grid-area: tpo10; }
-  tpo11 {
+  .tpo11 {
     grid-area: tpo11; }
-  tpo12 {
+  .tpo12 {
     grid-area: tpo12; }
-  por1 {
+  .por1 {
     grid-area: por1;
     font-size: small; }
-  por2 {
+  .por2 {
     grid-area: por2;
     font-size: small; }
-  por3 {
+  .por3 {
     grid-area: por3;
     font-size: small; }
-  por4 {
+  .por4 {
     grid-area: por4;
     font-size: small; }
-  por5 {
+  .por5 {
     grid-area: por5;
     font-size: small; }
-  por6 {
+  .por6 {
     grid-area: por6;
     font-size: small; }
-  por7 {
+  .por7 {
     grid-area: por7;
     font-size: small; }
-  por8 {
+  .por8 {
     grid-area: por8;
     font-size: small; }
-  por9 {
+  .por9 {
     grid-area: por9;
     font-size: small; }
-  por10 {
+  .por10 {
     grid-area: por10;
     font-size: small; }
-  por11 {
+  .por11 {
     grid-area: por11;
     font-size: small; }
-  por12 {
+  .por12 {
     grid-area: por12;
     font-size: small; }
-  cpor1 {
+  .cpor1 {
     grid-area: cpor1;
     transform: scale(0.8); }
-  cpor2 {
+  .cpor2 {
     grid-area: cpor2;
     transform: scale(0.8); }
-  cpor3 {
+  .cpor3 {
     grid-area: cpor3;
     transform: scale(0.8); }
-  cpor4 {
+  .cpor4 {
     grid-area: cpor4;
     transform: scale(0.8); }
-  cpor5 {
+  .cpor5 {
     grid-area: cpor5;
     transform: scale(0.8); }
-  cpor6 {
+  .cpor6 {
     grid-area: cpor6;
     transform: scale(0.8); }
-  cpor7 {
+  .cpor7 {
     grid-area: cpor7;
     transform: scale(0.8); }
-  cpor8 {
+  .cpor8 {
     grid-area: cpor8;
     transform: scale(0.8); }
-  cpor9 {
+  .cpor9 {
     grid-area: cpor9;
     transform: scale(0.8); }
-  cpor10 {
+  .cpor10 {
     grid-area: cpor10;
     transform: scale(0.8); }
-  cpor11 {
+  .cpor11 {
     grid-area: cpor11;
     transform: scale(0.8); }
-  cpor12 {
+  .cpor12 {
     grid-area: cpor12;
     transform: scale(0.8); }
-  b1 {
+  .b1 {
     grid-area: b1;
     transform: scale(0.8); }
-  b2 {
+  .b2 {
     grid-area: b2;
     transform: scale(0.8); }
-  b3 {
+  .b3 {
     grid-area: b3;
     transform: scale(0.8); }
-  b4 {
+  .b4 {
     grid-area: b4;
     transform: scale(0.8); }
-  b5 {
+  .b5 {
     grid-area: b5;
     transform: scale(0.8); }
-  b6 {
+  .b6 {
     grid-area: b6;
     transform: scale(0.8); }
-  b7 {
+  .b7 {
     grid-area: b7;
     transform: scale(0.8); }
-  b8 {
+  .b8 {
     grid-area: b8;
     transform: scale(0.8); }
-  b9 {
+  .b9 {
     grid-area: b9;
     transform: scale(0.8); }
-  b10 {
+  .b10 {
     grid-area: b10;
     transform: scale(0.8); }
-  b11 {
+  .b11 {
     grid-area: b11;
     transform: scale(0.8); }
-  b12 {
+  .b12 {
     grid-area: b12;
     transform: scale(0.8); }
   .pedidosonline {
