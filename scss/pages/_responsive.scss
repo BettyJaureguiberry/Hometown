@@ -244,8 +244,8 @@
         grid-area: videot;
         width: 50PX;
         height: 50PX;
-        margin-top: 200px;
-        margin-bottom: 20PX;
+        margin-top: 50px;
+        margin-bottom: 25PX;
     }
     .imgDrinks{
         transform: scale(0.4);
@@ -266,16 +266,16 @@
         "d9 t9";
         justify-content: center;
         align-items: center;
-        margin-top: 200px;
-        
     }
     .cuadroTequila {
-        display: grid;
+        /*display: grid;
         grid-template-columns: 50px;
         grid-template-rows: 50px;
         grid-template-areas: 
-        "videot"
-        
+        "videot"*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
     .parallaxDrinks {
         height: 500vh;
