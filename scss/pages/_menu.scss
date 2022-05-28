@@ -6,6 +6,7 @@
 .centrar{
     display: flex;
     justify-content: center;
+    justify-items: center;
 }
 .tituloMenu{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -76,8 +77,13 @@
 .flexFooterMenu {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 
+}
+.ordenarIMG{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

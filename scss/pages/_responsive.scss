@@ -224,7 +224,7 @@
         align-items: center;
     }
     .parallaxMenu {
-        height: 600vh;
+        height: 650vh;
         
     }
     /*Drinks*/
@@ -242,11 +242,13 @@
 
     .videot{
         grid-area: videot;
-        transform: scale(0.60);
-        margin-top: 110px;
+        width: 50PX;
+        height: 50PX;
+        margin-top: 200px;
+        margin-bottom: 20PX;
     }
     .imgDrinks{
-        transform: scale(0.5);
+        transform: scale(0.4);
     }
     .tequila{
         display: grid;
@@ -264,13 +266,13 @@
         "d9 t9";
         justify-content: center;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 200px;
         
     }
     .cuadroTequila {
         display: grid;
-        grid-template-columns: 100px;
-        grid-template-rows: 100px;
+        grid-template-columns: 50px;
+        grid-template-rows: 50px;
         grid-template-areas: 
         "videot"
         
@@ -373,7 +375,7 @@
     .flexFooterPO {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
     .parallaxPO {

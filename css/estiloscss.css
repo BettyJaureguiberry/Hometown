@@ -101,7 +101,7 @@ ul li a {
 .flexFooter {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center; }
 
 .iconosRedes {
@@ -233,7 +233,7 @@ ul li a {
 .cuadroTequila {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   justify-self: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -245,8 +245,8 @@ ul li a {
   height: 150vh; }
 
 #video {
-  width: 200px;
-  height: 350px; }
+  width: 400px;
+  height: 600px; }
 
 .imgMenu {
   width: 75%;
@@ -255,7 +255,8 @@ ul li a {
 
 .centrar {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  justify-items: center; }
 
 .tituloMenu {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -319,8 +320,13 @@ ul li a {
 .flexFooterMenu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center; }
+
+.ordenarIMG {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .menuPO {
   background-color: black;
@@ -349,7 +355,7 @@ ul li a {
 .flexFooterPO {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center; }
 
 .tituloPO {
@@ -580,7 +586,7 @@ ul li a {
     justify-content: center;
     align-items: center; }
   .parallaxMenu {
-    height: 600vh; }
+    height: 650vh; }
   /*Drinks*/
   .t1 {
     grid-area: t1; }
@@ -620,10 +626,12 @@ ul li a {
     grid-area: d9; }
   .videot {
     grid-area: videot;
-    transform: scale(0.6);
-    margin-top: 110px; }
+    width: 50PX;
+    height: 50PX;
+    margin-top: 200px;
+    margin-bottom: 20PX; }
   .imgDrinks {
-    transform: scale(0.5); }
+    transform: scale(0.4); }
   .tequila {
     display: grid;
     grid-template-columns: 200px 100px;
@@ -631,11 +639,11 @@ ul li a {
     grid-template-areas: "d1 t1" "d2 t2" "d3 t3" "d4 t4" "d5 t5" "d6 t6" "d7 t7" "d8 t8" "d9 t9";
     justify-content: center;
     align-items: center;
-    margin-top: 80px; }
+    margin-top: 200px; }
   .cuadroTequila {
     display: grid;
-    grid-template-columns: 100px;
-    grid-template-rows: 100px;
+    grid-template-columns: 50px;
+    grid-template-rows: 50px;
     grid-template-areas: "videot"; }
   .parallaxDrinks {
     height: 500vh; }
@@ -828,7 +836,7 @@ ul li a {
   .flexFooterPO {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; }
   .parallaxPO {
     height: 350vh; }
